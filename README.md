@@ -3,6 +3,15 @@
 This repository demonstrates the implementation of GraphQL in a .NET Core 7 project using Hot Chocolate. The application utilizes the PineStem Task Details table as an example for illustrating GraphQL functionalities
 
 ## Getting Started
+GraphQL is an open-source server-side technology developed by Facebook to optimize RESTful API calls. It serves as a query language for APIs and a server-side runtime for executing queries and collecting data from different sources.
+
+### What is GraphQL?
+
+- GraphQL allows us to fetch exactly the data we need using a single endpoint, optimizing API calls.
+- It is strongly typed, enabling validation of queries within GraphQL before execution, contributing to building more robust APIs.
+- GraphQL is known for its speed, stability, and ability to consistently provide predictable results.
+
+If you want to learn more about GraphQL and dive deeper into its concepts and usage, check out the official website of [GraphQL](https://graphql.org/).
 
 ### Installation
 
