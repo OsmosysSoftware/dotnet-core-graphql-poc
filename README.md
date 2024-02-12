@@ -12,6 +12,8 @@ GraphQL is an open-source server-side technology developed by Facebook to optimi
 - It is strongly typed, enabling validation of queries within GraphQL before execution, contributing to building more robust APIs.
 - GraphQL is known for its speed, stability, and ability to consistently provide predictable results.
 
+    ![GraphQL](./Images/graphql.png)
+
 If you want to learn more about GraphQL and dive deeper into its concepts and usage, check out the official website of [GraphQL](https://graphql.org/).
 
 ### Installation
