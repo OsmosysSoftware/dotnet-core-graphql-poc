@@ -17,17 +17,13 @@ builder.Services.AddDbContext<DbContextClass>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 
-
 //GraphQL Config
 builder.Services.AddGraphQLServer()
     .AddQueryType<TaskQueryTypes>();
 
 var app = builder.Build();
 
-
 //GraphQL
 app.MapGraphQL();
-
 app.UseHttpsRedirection();
-
 app.Run();
